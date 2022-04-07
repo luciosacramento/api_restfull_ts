@@ -8,7 +8,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "build": "tsc --project ./",
     "deploy": "npm run build && gh-pages -d build",
-    "start": "node ./src/app.js"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
