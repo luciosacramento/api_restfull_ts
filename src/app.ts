@@ -20,7 +20,7 @@ app.use("/api/", router)
 //app port
 const port = config.get<number>("port")
 
-app.listen(3000,async () =>{
+app.listen(port,async () =>{
     await db()
     Logger.info(`Aplicação está funcionando na porta: ${port}`)
 })
