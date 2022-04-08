@@ -5,3 +5,4 @@ router.ts
 config/*.ts
 log/*.ts
 src/**/*.ts
+tsconfig.json
