@@ -10,6 +10,7 @@
     "deploy": "npm run build && gh-pages -d build",
     "start": "node app.js"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
