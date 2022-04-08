@@ -1,7 +1,7 @@
 import { Request, Response, Router } from "express";
-import { createMovie, findMovieById, getAllMovies, removeMovie, updateMovie } from "./controllers/movieControllers";
-import { validate } from "./middleware/handleValidation";
-import { movieCreateValidation } from "./middleware/movieValidation";
+import { createMovie, findMovieById, getAllMovies, removeMovie, updateMovie } from "./src/controllers/movieControllers";
+import { validate } from "./src/middleware/handleValidation";
+import { movieCreateValidation } from "./src/middleware/movieValidation";
 
 
 const router = Router()

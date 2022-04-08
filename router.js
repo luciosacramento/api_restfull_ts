@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const movieControllers_1 = require("./controllers/movieControllers");
-const handleValidation_1 = require("./middleware/handleValidation");
-const movieValidation_1 = require("./middleware/movieValidation");
+const movieControllers_1 = require("./src/controllers/movieControllers");
+const handleValidation_1 = require("./src/middleware/handleValidation");
+const movieValidation_1 = require("./src/middleware/movieValidation");
 const router = (0, express_1.Router)();
 exports.default = router.get("/test", (req, res) => {
     res.status(200).end("Api funfou!!");

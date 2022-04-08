@@ -3,9 +3,9 @@ require("dotenv").config();
 import express from "express"
 import config from "config"
 import router from "./router"
-import db from "../config/db"
-import Logger from "../config/logger";
-import morganMiddleware from "./middleware/morganMiddleware";
+import db from "./config/db"
+import Logger from "./config/logger";
+import morganMiddleware from "./src/middleware/morganMiddleware";
 
 const app = express()
 
