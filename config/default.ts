@@ -4,6 +4,6 @@ const port = process.env.PORT || "443";
 
 export default {
     port: port,
-    dbUri: `mongodb+srv://NinaStella:IZiVG7WLCV5TzYja@cluster0.mnoyz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
+    dbUri: "mongodb+srv://NinaStella:IZiVG7WLCV5TzYja@cluster0.mnoyz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     env: "development"
 }

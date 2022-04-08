@@ -1,18 +1,18 @@
-require("dotenv").config();
-
+//require("dotenv").config();
+/*
 import express from "express"
 import config from "config"
 import router from "./router"
 import db from "./config/db"
 import Logger from "./config/logger";
 import morganMiddleware from "./src/middleware/morganMiddleware";
-
-const app = express()
+*/
+//const app = express()
 
 //json middleware
-app.use(express.json())
+//app.use(express.json())
 
-app.use(morganMiddleware)
+///app.use(morganMiddleware)
 
 console.log("oi");
 
